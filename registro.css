@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    background-image: url(img/register.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.6);
+    filter: blur(0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    section {
+        height: 65vh;
+        width: 25%;
+        background-color: #E3EED499;
+        border-radius: 10px;
+        display: grid;
+        grid-template-rows: 15vh 35vh 10vh;
+        border-radius: 20px;
+    }
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        height: 10vh;
+    }
+    p {
+        margin-left: 4%;
+        font-size: 5em;
+        color: white;
+    }
+}
+
+.inpu {
+    display: grid;
+    justify-content: center;
+    padding: 2%;
+    flex-wrap: nowrap;
+    grid-template-columns: 100%;
+    grid-template-rows: 40 40% 20%;
+}
+
+.inputs {
+    display: grid;
+    grid-template-rows: 40% 60%;
+
+    span {
+        font-size: 1.75em;
+        color: white;
+        text-align: center;
+    }
+    input {
+        justify-self: center;
+        height: 3.5vh;
+        width: 65%;
+        border-radius: 6px;
+        border: solid 1px black;
+        background-color: rgba(211, 211, 211, 0.452);
+        color: black;
+    }
+    input::placeholder {
+        color: black;
+    }
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    a {
+        margin-right: 4%;
+        font-size: 1.5em;
+        display: inline-block;
+        height: 4.5vh;
+        line-height: 4.5vh;
+        width: 30%;
+        text-align: center;
+        background-color: #0F2A1D;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+hr {
+    width: 90%;
+    height: 1vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none;
+    border-bottom: solid 1.5px white;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        margin-right: 4%;
+        font-size: 1.5em;
+        display: inline-block;
+        height: 5vh;
+        line-height: 5vh;
+        width: 30%;
+        text-align: center;
+        background-color: #0F2A1D;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
